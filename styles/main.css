@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 920px;
+  margin: 0 auto;
+  padding-top: 4em;
+}
+.token {
+  background-color: yellow;
+  display: inline-block;
+  margin: 0 0.3em;
+}
+.pbid {
+  color: green;
+  display: inline-block;
+  margin-right: 1em;
+}
+.danger {
+  color: red;
+}
+#input {
+  outline: 0;
+  font-size: 1.1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1em;
+  height: 3em;
+  width: 512px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+}
+#input:focus {
+  border: 1px solid #4285f4;
+}
+#message-box {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#result {
+  width: 512px;
+  margin: 0 auto;
+  padding-top: 1.4em;
+}
+.row {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+#message-input {
+  padding-top: 0.4em;
+  width: 512px;
+  margin: 0 auto;
+}
+#message-input > p {
+  margin: 0.2em 0;
+}
