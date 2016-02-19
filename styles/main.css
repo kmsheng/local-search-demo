@@ -56,3 +56,16 @@
 #message-input > p {
   margin: 0.2em 0;
 }
+
+.meter {
+  width: 512px;
+  margin: 0 auto 0.4em;
+  border: 1px solid #ccc;
+  height: 3.25em;
+}
+
+.meter > span {
+  display: block;
+  background-color: #2bc253;
+  height: 100%;
+}
